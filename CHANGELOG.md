@@ -288,7 +288,7 @@
 
 ## v159 (04/24/2017)
 
-*  Blacklist JAVA_OPTS and JAVA_TOOL_OPTIONS during build (#559)
+*  Denylist JAVA_OPTS and JAVA_TOOL_OPTIONS during build (#559)
 
 ## v158 (04/12/2017)
 
@@ -401,7 +401,7 @@ RUBY VERSION
 
 ## v137 (5/11/2015)
 
-* Blacklist `JRUBY_OPTS`, use `JRUBY_BUILD_OPTS` to override build `JRUBY_OPTS`.  (#384)
+* Denylist `JRUBY_OPTS`, use `JRUBY_BUILD_OPTS` to override build `JRUBY_OPTS`.  (#384)
 * Revert `--dev` during JRuby build for now. (#384)
 
 ## v136 (5/6/2015)
@@ -623,7 +623,7 @@ Features:
 
 Bugfixes:
 
-* use blacklist of env vars, so users can't break the build process
+* use denylist of env vars, so users can't break the build process
 
 
 ## v101 (2/5/2014)
